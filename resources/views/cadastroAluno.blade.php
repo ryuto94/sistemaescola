@@ -4,7 +4,7 @@
     <form action="/aluno/cadastro" method="post">
         @csrf
         <input type="text" name="nome">
-        <input type="text" name="sobrenome">
+        <input type="text" name="cpf">
         <button type="submit">Enviar</button>
     </form>
 @endsection
